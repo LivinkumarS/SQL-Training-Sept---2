@@ -1,0 +1,75 @@
+Database:
+------------
+>> An organised collection of data that can be easily accessed, modified and managed.
+
+RDBMS ---> Relational DataBase Management System. (SQLDB)
+--------------------------------------------------
+>> A software system that manages database in tabular (row-column) format
+>> Ex: MySQL, PostgreSQL....
+>> Uses Language called SQL.
+
+NRDBMS -> Non Relational DataBase Management System.(NoSQLDB)
+-----------------------------------------------------
+>> A software system that manages database in Document (row-column) format
+>> Ex: MongoDb, MariaDB....
+
+MySQL 
+------
+>> RDBMS 
+>> Open Source.
+
+SQL ---> Structured Query Language
+-----------------------------------
+>> SQL keywords are not case-sensitive.
+>> Every SQL query should end with ";"
+
+DataBase  --> Multiple Tables --> Data
+(Schema)
+
+DataTypes
+---------
+Numeric DataTypes 
+-------------------
+INT ---> Whole Numbers
+FLOAT ---> Decimal Numbers 
+DOUBLE --> Large Decimal Numbers 
+
+String DataTypes
+-----------------
+CHAR(n) --> Fixed Length Characters. EX: CHAR(5)-->"hello","world"...
+VARCHAR(n) ---> Variable Char Length. EX: VARCHAR(5) --> 'h','hi','can','four',"hello"
+TEXT --> Large text.
+
+Boolean Datatypes 
+-----------------
+BOOL --> 1 or 0
+
+Date and Time
+--------------
+DATE --> only date as a String --> 'yyyy-mm-dd'. Ex: '2025-09-22'
+TIME --> only time as a String --> 'HH:MM:SS'. Ex: '12:12:12'
+DATETIME ---> Both date and time
+
+Constraints 
+-----------
+>> Additional Information about a column.
+
+PRIMARY KEY ---> can be used only once ina table. this is used to identify each rows uniquely. data that are being stored in that column should be unique. you cannot leave this primary key column empty.
+
+Queries:
+----------
+
+To Create Database ----> CREATE DATABASE dbname;
+To Select Database ---> USE dbname;
+To Create a New Table --> CREATE TABLE tbName(
+    col1 DataType Constraints,
+    col2 DataType Constraints,
+    col3 DataType Constraints,
+    .
+    .
+    .
+);
+
+
+CRUD   --> Create Read  Update Delete 
+----

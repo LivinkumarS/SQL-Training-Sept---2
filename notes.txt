@@ -56,6 +56,17 @@ Constraints
 
 PRIMARY KEY ---> can be used only once ina table. this is used to identify each rows uniquely. data that are being stored in that column should be unique. you cannot leave this primary key column empty.
 
+Operators 
+----------
+basic Operators 
+----------------
+= ---> will check the equality.
+<>,!= --> not equal. 
+< --> lesser than.
+> ---> Greater than.
+<= --> lesser than or equal.
+>= --> greater than or equal.
+
 Queries:
 ----------
 
@@ -70,6 +81,25 @@ To Create a New Table --> CREATE TABLE tbName(
     .
 );
 
+To insert a new data in a table ---> INSERT INTO tbname (col Details(optional)) VALUES (),(),()...;
+To retrive data from a table ---> SELECT col1,col2 FROM tbname; when you want to retrive every col without changing order---> *
 
-CRUD   --> Create Read  Update Delete 
+To update an existing data --> UPDATE tbname SET col1=val1, col2=val2.......;
+sql_safe _updates ---> when it is on ---> cannot update or delete more than 1 data. filteration is must. condition should depend on primary.
+
+To delete an existing data --> DELETE FROM tbname  filteration;
+
+
+CRUD   --> Create Read Update Delete 
 ----
+Create --> Insert into
+Read --> Select
+Update --> Update
+Delete ---> Delete
+
+Filtering ---> WHERE
+---------------------
+>> Selecting only the rows that meet certain condition. 
+Operators ---> create conditions ---> filter the results.
+
+to use filteration ---> query.... WHERE condition;

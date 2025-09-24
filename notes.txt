@@ -67,6 +67,54 @@ basic Operators
 <= --> lesser than or equal.
 >= --> greater than or equal.
 
+BETWEEN
+---------
+>> Checks if a value is within a range (inclusive).
+
+where colName BETWEEN num1 AND num2;
+
+IN 
+---
+>> Checks if a value matches any value in a list.
+
+where colName in (val1,val2......);
+
+LIKE --> pattern matching
+-----
+Used for searching using a pattern.
+
+>> % --> matches any number of characters(0 to infinite)
+>> _ --> matches exactly one character.
+
+starting with 'v'  --> 'v%' 
+ends with 'v'  ---> '%v'
+
+where colName like 'pattern';
+
+Logical Operators 
+------------------
+>> combine multiple conditions 
+
+AND ---> all conditions must be true.
+OR ---> at least one condition must be true.
+NOT --> invert a condition.
+
+Sorting (Arranging)
+------- 
+ORDER BY
+ORDER BY colName (ASC or DESC);
+
+LIMIT
+------
+>> Restrict the number of rows returned
+ex: limit noOfRows;
+
+OFFSET 
+------
+>> Skip the roes at the begenning.
+ex: limit 10 offset 5 ;
+
+
 Queries:
 ----------
 

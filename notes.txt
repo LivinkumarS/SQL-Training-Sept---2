@@ -151,3 +151,32 @@ Filtering ---> WHERE
 Operators ---> create conditions ---> filter the results.
 
 to use filteration ---> query.... WHERE condition;
+
+
+Functions
+----------
+>> Functions are predefined programs in MySQL that take an input, performs an operation with it and return a output.
+
+Numerical Functions 
+-------------------
+ROUND(dec num) --> Round off to the nearest integer. Ex: round(45.55) --> 46
+CEIL(dec number) --> Round off to the next integer. Ex: ceil(22.22) --> 23 
+FLOOR(dec number) --> Round off to the previous integer. Ex: floor(33.99) --> 33
+MOD(num1,num2) --> gives reminder. Ex: mod(9,3) --> 0
+POWER(num1,num2) --> num1 power num2. Ex: power(4,2) --> 16
+
+String Functions 
+--------------------
+CONCAT(s1,s2,s3....) --> attach strings
+LENGTH(str) --> return length of that string. "hello world"--> 11
+UPPER(str) --> convert to uppercase. ex: upper("hello") --> "HELLO"
+LOWER(str) --> convert to lowercase. ex: lower("HELLO") --> "hello"
+SUBSTRING(str, str, length) --> extract a part of a string. Ex: SUBSTRING("Hello world",1,5) ---> Hello
+REPLACE(str, sub1, sub2) --> replacing a substring. Ex: REPLACE("hello world", 'hello', 'hi')--> 'hi world'
+
+Date and Time Functions 
+------------------------
+NOW() --> current date and time.
+CURDATE()--> current date
+CURTIME()--> current time
+DATEDIFF(d1,d2) --> defference in days. DATEDIFF('2025-09-25','2025-09-20') --> 5

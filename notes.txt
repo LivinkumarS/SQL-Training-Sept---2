@@ -52,9 +52,15 @@ DATETIME ---> Both date and time
 
 Constraints 
 -----------
->> Additional Information about a column.
+>> A Constraint is a rule applied to a column in a table. It ensures data integrity.
 
-PRIMARY KEY ---> can be used only once ina table. this is used to identify each rows uniquely. data that are being stored in that column should be unique. you cannot leave this primary key column empty.
+PRIMARY KEY ---> can be used only once in a table. this is used to identify each rows uniquely. data that are being stored in that column should be unique. you cannot leave this primary key column empty.
+AUTO_INCREMENT --> Automatically generates a unique numeric value.
+UNIQUE ---> It ensures no duplicate value in a column.
+NOT NULL ---> Ensures that a column cannot have NULL value.
+DEFAULT ---> Provides a default value when no value is supplied.
+
+Foreign Key --> It creates relationship between two tables. It refers to primary key of another table.
 
 Operators 
 ----------

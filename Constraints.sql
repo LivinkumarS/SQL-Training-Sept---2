@@ -7,6 +7,8 @@ price float not null,
 isAvailable bool default 0
 );
 
+drop table bestSeller;
+
 create table bestSeller(
 id int primary key auto_increment,
 status bool not null,
@@ -22,4 +24,4 @@ insert into product (name,price) values
 select * from product;
 select * from bestSeller;
 
-insert into bestSeller (status,productId) values (1,7);
+insert into bestSeller (status,productId) values (0,2);

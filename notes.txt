@@ -223,3 +223,24 @@ m l xl xxl
 
 no of rows in result = rows in left table * rows in right table
 
+
+Aggregate Fuctions 
+--------------------
+>> It works on a set of values and return a single value.
+
+1) COUNT() ---> counts the number of rows.
+2) SUM()  --> adds numeric values
+3) AVG()  --> finds average.
+4) MIN()  --> minimum value.
+5) MAX()  --> maximum value.
+
+Grouping  ---> GROUP BY 
+----------  
+>> Groups rows that have the same values into summary rows.
+
+>> ...... GROUP BY colName;
+
+to do filteration with rows ---> WHERE.
+to do filteration with Groups ---> HAVING.
+
+HAVING ---> .... HAVING condition;

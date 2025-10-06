@@ -244,3 +244,16 @@ to do filteration with rows ---> WHERE.
 to do filteration with Groups ---> HAVING.
 
 HAVING ---> .... HAVING condition;
+
+Sub Queries 
+------------
+>> A subquery (inner query) is a query nested inside another query. The outer query is called main query.
+Ex: outer (inner query)
+
+Single Row Sub query 
+-----------------------
+>> Returns only one row
+
+Multi row Sub query
+--------------------
+>> Returns more than one row

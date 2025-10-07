@@ -158,6 +158,21 @@ Operators ---> create conditions ---> filter the results.
 
 to use filteration ---> query.... WHERE condition;
 
+Altering Table
+---------------
+ALTER 
+
+To add a new column ---> ALTER TABLE tbname ADD COLUMN colname datatype cont1 cont2......;
+To modify a column ---> ALTER TABLE tbname MODIFY COLUMN colname datatype cont...;
+To drop a column ---> ALTER TABLE tbname DROP COLUMN colname;
+To rename a column ---> ALTER TABLE tbname RENAME COLUMN oldName TO newName;
+
+To rename table --->  ALTER TABLE tbname RENAME TO newName;
+
+To drop a table ---> DROP TABLE tbname;
+
+To drop a Schema ---> DROP DATABASE dbname;
+
 
 Functions
 ----------
@@ -257,3 +272,11 @@ Single Row Sub query
 Multi row Sub query
 --------------------
 >> Returns more than one row
+
+Views 
+-------
+>> A view is a virtual table based on the result from SELECT query.
+>> it does not store physical data.
+
+Ex: CREATE VIEW viewName AS SELECT .......;
+
